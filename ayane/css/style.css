@@ -1,0 +1,36 @@
+#hireme{
+	padding:100px 0px 100px 0px;
+	background-color: #EEEEEE;
+}
+
+.btn-large{
+	background-color: #00CC99;
+	padding:10px 55px 10px 55px;
+	margin-top: 25px;
+
+}
+
+.footer-bottom{
+	padding:100px 0px 100px 0px;
+}
+
+
+
+.footer-share {
+ 	list-style: none;
+ 	display: flex;
+ 	justify-content: center;
+ 	
+
+}
+
+.footer-share li{
+	padding-right: 10px; 	
+	font-size:25px;
+}
+
+.col-md-12 p{
+	font-size:13px;
+	display: flex;
+ 	justify-content: center;
+}
