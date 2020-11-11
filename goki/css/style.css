@@ -1,0 +1,27 @@
+/**/
+section {
+	padding: 100px 0;
+}
+
+/*descripton*/
+.descripton p {
+	font-size: 18px;
+	line-height: 33px;
+	font-weight: 400;
+}
+
+/*menu*/
+#menu i {
+}
+
+.col-3 {
+	height: 280px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.col-3:hover {
+	cursor: pointer;
+	opacity: 0.8;
+}
