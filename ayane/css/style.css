@@ -5,10 +5,19 @@
 
 .btn-large{
 	background-color: #00CC99;
-	padding:10px 55px 10px 55px;
+	padding:11px 53px 11px 53px;
 	margin-top: 25px;
+	color: #fff;
+	font-family: 'Hind Madurai', sans-serif;
+	font-size: 14px;
 
 }
+
+.btn-large:hover {
+  	background-color:#333333;
+  	color: #fff;
+}
+
 
 .footer-bottom{
 	padding:100px 0px 100px 0px;
@@ -29,8 +38,9 @@
 	font-size:25px;
 }
 
-.col-md-12 p{
-	font-size:13px;
-	display: flex;
- 	justify-content: center;
+.copyright {
+	font-size:12px;
+ 	text-align: center;
+ 	color: #808080;
+ 	text-transform: uppercase;
 }
