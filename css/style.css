@@ -1,6 +1,7 @@
 .banner {
 	background-color: #65349c;
 	min-height: 750px;
+    padding: 0px;
 }
 
 body {
