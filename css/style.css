@@ -28,8 +28,14 @@ body {
 
 #header .logo {
     float: left;
- }
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 13px;
+    font-weight: 400;
+    margin-left: 40px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
 
+ }
 
 a {
     color: #e84545;
