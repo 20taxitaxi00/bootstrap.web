@@ -265,6 +265,33 @@ section {
     opacity: 0.8;
 }
 
+/*API部分*/
+#key{
+    width: 300px;
+    height: 40px;
+}
+
+#submit {
+    width: 50px;
+    height: 40px;
+    margin-left: 20px;
+}
+
+#key, #submit {
+    margin-bottom: 70px;
+}
+
+
+#guru-result img{
+    width: 300px;
+    height: 250px;
+}
+
+#guru-result p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
 
 /*ここからayaneさん*/
 
