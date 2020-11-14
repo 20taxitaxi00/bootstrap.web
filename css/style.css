@@ -1,5 +1,7 @@
 .banner {
-	background-color: #65349c;
+	background-image: url('../ryu-img/header2.jpg');
+    background-size: cover;
+    background-blend-mode: lighten;
 	min-height: 750px;
     padding: 0px;
 }
