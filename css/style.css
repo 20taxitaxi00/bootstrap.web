@@ -254,30 +254,41 @@ section {
 /*menu*/
 #menu i {
 }
+.subtitle{
+    font-size: 50px;
+    padding-bottom: 35px;
+    color: #333333;
+    font-weight: bolder; 
+}
 
 .col-3 {
     height: 280px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding:0.5px;
-    margin-top:1px;
+    padding:5px;
+    margin-top:10px;
 }
-.col-3{
+.col-3 {
     position: relative;
        
 }
 .col-3 p{
     position: absolute;
-    font-size: 40px;
-    font-weight: bolder; 
+    font-size: 30px;
     font-family: 'Pacifico', cursive;
-    top: center;
-    left: middle;
     color: #fff;
-    text-shadow:1px 1px 0 #000, -1px -1px 0 #fff;  
+    text-shadow:1px 1px 0 #000, -1px -1px 0 #fff; 
 }
 
+.col-3 a{
+    position: absolute;
+    font-size: 30px;
+    font-weight: bolder; 
+    font-family: 'Pacifico', cursive;
+    color: #fff;
+    text-shadow:1px 1px 0 #000, -1px -1px 0 #fff; 
+}
 
 .col-3:hover {
     cursor: pointer;
@@ -321,11 +332,11 @@ section {
 
 #hireme{
     padding:100px 0px 100px 0px;
-    background-color: #f7e8dd;
+    background-color: #EEEEEE;
 }
 
 .btn-large{
-    background-color: #808183;
+    background-color: #696969;
     padding:11px 53px 11px 53px;
     margin-top: 25px;
     color: #fff;
