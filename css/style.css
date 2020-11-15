@@ -260,11 +260,33 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding:0.5px;
+    margin-top:1px;
 }
+.col-3{
+    position: relative;
+       
+}
+.col-3 p{
+    position: absolute;
+    font-size: 40px;
+    font-weight: bolder; 
+    font-family: 'Pacifico', cursive;
+    top: center;
+    left: middle;
+    color: #fff;
+    text-shadow:1px 1px 0 #000, -1px -1px 0 #fff;  
+}
+
 
 .col-3:hover {
     cursor: pointer;
     opacity: 0.8;
+}
+
+.no-gutter img{
+    height: 280px;
+    width: 100%;
 }
 
 /*API部分*/
@@ -299,11 +321,11 @@ section {
 
 #hireme{
     padding:100px 0px 100px 0px;
-    background-color: #EEEEEE;
+    background-color: #f7e8dd;
 }
 
 .btn-large{
-    background-color: #00CC99;
+    background-color: #808183;
     padding:11px 53px 11px 53px;
     margin-top: 25px;
     color: #fff;
