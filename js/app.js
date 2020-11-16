@@ -59,6 +59,11 @@ document.addEventListener('DOMContentLoaded',function(){
     div.classList.add('col-6');
 
     img.src = image.shop_image1;
+
+    if (image.shop_image1 == ""){
+      img.src = "./img/noimage.png";
+    }
+    
     // img.width = image.width;
     // img.height = image.height;
 
